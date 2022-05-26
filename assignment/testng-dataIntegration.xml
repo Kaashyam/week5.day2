@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leaftaps UI Test Cases" verbose = '5'>
+<parameter name = "URL" value = "http://leaftaps.com/opentaps/"/>
+  <test name="Leaftaps Test">
+  <parameter name = "browserName" value = "Chrome"/>
+    <classes>
+      <class name="week5.day2.assignment.CreateLead"/>
+      <class name="week5.day2.assignment.DeleteLead"/>
+      <class name="week5.day2.assignment.DuplicateLead"/>
+      <class name="week5.day2.assignment.MergeLead"/>
+      <class name="week5.day2.assignment.EditLead"/>
+    </classes>
+  </test> <!-- Leaftaps Test -->
+</suite> <!-- Leaftaps UI Test Cases -->
